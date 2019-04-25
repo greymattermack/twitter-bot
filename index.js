@@ -1,10 +1,10 @@
 const Twit = require('twit');
 
 const T = new Twit({
-  consumer_key:         '',
-  consumer_secret:      '',
-  access_token:         '',
-  access_token_secret:  '',
+  consumer_key:         'IvjP9MGWeIvbIPR5CSk9xg5aq',
+  consumer_secret:      'EzpCarstaupSWy6IjKbU1ZEVNKdJW8sS20xzkGY1hIlGrCwWXY',
+  access_token:         '849069059962437632-MSHvHmhCqUjIHAaiwq7IpuRsPynPmrX',
+  access_token_secret:  '3LINAVLmmCGONRrc625EnbTCV6r7kkQzXDf5C1o1yRuid',
   timeout_ms:           60 * 1000,
 });
 
@@ -12,11 +12,10 @@ const T = new Twit({
 streamTweetsByKeyboard("mango");
 
 // Post a tweet
-sendTweet("Ysabel hacking");
+sendTweet("Tweet Goes here");
 
 //Stream all of a certain user tweets [GET USER ID HERE : http://gettwitterid.com/]
 streamTweetsByUsername("849069059962437632");
-
 
 /*
  *
