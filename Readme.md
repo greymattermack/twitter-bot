@@ -5,6 +5,13 @@ You will need to install 'npm' in order to run the bot. You can download and ins
 You will also need to make your own app on twitter. You can do that using this link here: 
 https://developer.twitter.com/
 
+
+## Run the code:
+
+To run the code, use this command in the cmd/terminal: 
+`node index.js`
+
+
 ## Documentation:
 
 
