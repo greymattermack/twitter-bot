@@ -33,6 +33,8 @@ To stream a certain username tweets, use this command. This command needs the us
 `streamTweetsByUsername("USER ID HERE")`
 
 
+### Learn more?
 
+To learn more about what you can do with the twitter API, visit this link : https://www.npmjs.com/package/twit
 
 
